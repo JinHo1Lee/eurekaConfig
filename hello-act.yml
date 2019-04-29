@@ -8,3 +8,7 @@ spring:
     username: guest
     password: guest
 
+authdb:
+    url: jdbc:mysql://172.16.0.107:3306/tb_authdb?serverTimezone=UTC&useSSL=false
+    user: newgw
+    pass: pwnewgw
